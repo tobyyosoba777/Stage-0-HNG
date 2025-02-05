@@ -19,4 +19,5 @@ function copyEmail() {
         alert("Email copied to clipboard!");
     }).catch(err => {
         console.error("Error copying text: ", err);
-    });
+    })
+};
