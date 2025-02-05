@@ -45,6 +45,7 @@ body {
 .time img {
     width: 30px;
     height: 30px;
+    border-radius: 50%;
 }
 
 .time {
@@ -172,11 +173,28 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
     margin: 0 auto;
     text-align: center;
 }
 
+.emailcon p {
+    font-size: 1em;
+    font-family: "Nunito", serif;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
 
 .links {
     display: flex;
