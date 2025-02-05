@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+            <div class="time" >
+                <img src="./icons8-clock.gif" alt="" width="50" height="50">
+                UTC Time:  <span id="utc-clock" data-testid="currentTimeUTC"></span>
+            </div>
+                <div class="img">
+                    <img data-testid="profilePicture" src="./profile.jpg" alt="">
+                </div>
+            </header>
+
+            <div class="main-section">
+                <div class="details">
+                    <div class="name">
+                        <h1 data-testid="fullName">Tobiloba Osoba</h1>
+                        <img src="./assets/icons8-instagram-verified.gif" alt="">
+                    </div>
+                    <div class="track" data-testid="jobTitle">
+                        Frontend Developer
+                    </div>
+                    <div class="location">
+                        <img src="./assets/icons8-location.gif" width="20" height="20" alt="">
+                        <p data-testid="currentLocation">Lagos, Nigeria</p>
+                    </div>
+                </div>
+    
+                <div class="underline"></div>
+    
+                <div class="description">
+                    <p>
+                        I'm a passionate Frontend Developer with a 
+                        keen eye for creating responsive and 
+                        user-friendly web interfaces. During my 
+                        internship, I chose the Frontend track.
+                        I use modern technologies Like 
+                        Javascript, and Python. 
+                        I enjoy turning ideas into visually appealing 
+                        and functional experiences, constantly learning 
+                        and improving along the way.
+                    </p>
+                </div>
+
+                <div class="emailcon">
+                    <p class="email" id="email">tobiosoba777@gmail.com</p>
+                    <button onclick="copyEmail()">Copy Email</button>
+                </div>
+    
+                <div class="links">
+                    <div class="mail"></div>
+                    <div class="other-links" data-testid="socialLinks">
+                        <div class="Instagram">
+                            <a data-testid="socialLinks" href="./" target="_blank">
+                                <img src="./assets/icons8-instagram-94.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="Twitter">
+                            <a data-testid="socialLinks" href="https://x.com/towbbie">
+                                <img src="./assets/icons8-x-48.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="Github">
+                            <a data-testid="socialLinks" href="https://github.com/tobyyosoba777">
+                                <img src="./assets/icons8-github.gif" alt="">
+                            </a>
+                        </div>
+
+                        <div class="linkedin">
+                            <a data-testid="socialLinks" href="https://www.linkedin.com/in/tobiloba-osoba-4a3090252/">
+                                <img src="./assets/icons8-linkedin-48.png" alt="">
+                            </a>
+                        </div>
+                        <!-- <div class="linkedin"></div> -->
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="./main.js" async defer></script>
+    </body>
+</html>
